@@ -1,3 +1,7 @@
-body {
-  background-image:url("https://s-media-cache-ak0.pinimg.com/originals/22/c6/59/22c659d26e320a5efbd4295d0de48044.jpg");
+html { 
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/22/c6/59/22c659d26e320a5efbd4295d0de48044.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
