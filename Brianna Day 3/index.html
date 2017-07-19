@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Brianna's Life</title>
+<link rel="stylesheet" href="style.css">
+
+<script type="text/javascript" src="script.js"></script>
+
+<script>
+function myFunction() {
+    var btn = document.createElement("My Life");
+    document.body.appendChild(btn);
+}
+
+<button onclick="myFunction()">My Life</button>
+</script>
+
+
+</head>
+<body>
+  <font color="aquamarine"><h1>BRIANNA SUSZ</h1></font>
+
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'This is the story of my life')">Story of My Life</button>
+    <button class="tablinks" onclick="openCity(event, 'My Gallery')">My Gallery</button>
+    <button class="tablinks" onclick="openCity(event, 'Random Facts')">Random Facts</button>
+    <button class="tablinks" onclick="openCity(event, 'Some of My Likes')">Some of My Likes</button>
+    <button class="tablinks" onclick="openCity(event, 'Some of My Dislikes')">Some of My Dislikes</button>
+    <button class="tablinks" onclick="openCity(event, 'My Favorite Websites')">My Favorite Websites</button>
+  </div>
+
+  <div id="This is the story of my life" class="tabcontent">
+    <font color="chartreuse"><h2><i>This is the story of my life</i></h2></font>
+    <font color="white"><p>I grew up (and currently live) in a small town known as Caledonia, NY. But here's the catch, I don't go to Caledonia School and I technically don't live in Caledonia either. I live in the "hamlet" of Fowlerville. But besides all of that I actually go to York Cental School. I know, confusing, right? Well that's my life, everyday.</p>
+      <p>Then again, my bus ride to and from school is 45 minutes. Speaking of school, I will be a Junior this year at York</p>
+      <p>I have a total of 48 kids in my grade. TOTAL. That's it. But the total kids in my entire High School is about 200 students. If you drive 30 seconds in any direction from my school there will be hundreds and thousands of acres of farm fields. Lots of trees and fields. But that's noraml for me, I see it everyday 24/7. I even live next to a huge field and my house is surrounded by trees.</p>
+      <p>I love it though, cities are way too busy for me. I'm a total country girl. But I love photography and traveling, and cannot wait to travel the world!</p>
+      <p>I grew up with an Australian Shepherd named Bosco but he got very old and unfortunatly died. But later we got our dog Scooter and recently Coty.</p></font>
+  </div>
+
+  <div id="My Gallery" class="tabcontent">
+    <font color="gold"><h2>My Gallery</h2></font>
+    <font color="white"><p>Hover over these images to make them bigger</p></font>
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://mail.google.com/mail/u/0/?ui=2&ik=e44d47b1e9&view=fimg&th=15d51d27adcdaaeb&attid=0.1&disp=emb&realattid=5f9c0d6683000bc_0.1.1&attbid=ANGjdJ8bYQ2LiO2bwE0OsqQNWR39b6XdxgPG3tDHF60xMPnh-g_e619VW7FymxEpCPWBd30YLPD-shCKa5VMh64LakTAS_2YT3eo7KxCgF9SAlFgB6sFaZUYqfuFv80&sz=s0-l75-ft&ats=1500404159616&rm=15d51d27adcdaaeb&zw&atsh=1" alt="baby Brianna" style="width:60px;height:100px;"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://mail.google.com/mail/u/0/?ui=2&ik=e44d47b1e9&view=fimg&th=15d51d48ffa5dc4b&attid=0.1&disp=emb&realattid=763c187e970d4a8a_0.1.1&attbid=ANGjdJ8U2FpiGnM5qIVUW8XmX2ju6UFrgsCRQuiQeto-mLbr1UP3tfJKjuqSOGftk79sXi1dsDvWuVCHvkprdnhc322yaoqmW34QuMJuBBKC3rP9l5MTcJuPwQWh-2Y&sz=s0-l75-ft&ats=1500404159612&rm=15d51d48ffa5dc4b&zw&atsh=1" alt="baby Brianna 2" style="width:60px;height:100px">
+  </div>
+
+  <div id="Random Facts" class="tabcontent">
+    <font color="chocolate"><h2>Here are 9 random facts about my life:</h2></font>
+    <font color="white"><p>1. I am going into Junior year at York Central School.</p>
+    <p>2. My dad is an Engineer for Steuben Foods.</p>
+    <p>3. My mom is a Graphic Design Professor at Bryant and Stratton College.</p>
+    <p>4. I have three brothers, Andrew, Collin, and Ryan.</p>
+    <p>5. I have two dogs, named Coty and Scooter.</p>
+    <p>6. Coty is an Blue Merle Australian Shepherd, and Scooter is a Border Collie.</p></font>
+  </div>
+
+  <div id="Some of My Likes" class="tabcontent">
+    <font color="red"><h2>Some of my likes:</h2></font>
+    <ul>
+      <font color="white"><li>Dogs and Cats</li>
+      <li>Watching Netflix and YouTube</li>
+      <li>Baking and Cooking</li>
+      <li>Eating food</li>
+      <li>Sick Jams, (Shoutout to my Spotify playlist, linked below)</font>
+    </ul>
+  </div>
+
+  <div id="Some of My Dislikes" class="tabcontent">
+    <font color="deeppink"><h2>Some of my dislikes:</h2></font>
+    <ul>
+      <font color="white"><li>Slow Walkers</li>
+        <li>People that try to talk to me when I'm listening to music with headphones</li>
+        <li>Ankle biters, AKA small dogs that I could kick while I'm walking</li>
+        <li>Dogs with a high pitched bark</li>
+      </ul>
+  </div>
+
+<div id="My Favorite Websites" class="tabcontent">
+<center>
+  <font color="purple"><h2>Click the links below to check out my Favorite Websites</h2></font>
+  <p><a href="https://open.spotify.com/user/bigbea130/playlist/6Jhzi5UPNCpXbCpGNKa0Q3"><font color="white"><u>Spotify- @bigbea120 (check out my, "Sick Jams 2.0")</u></a></p>
+  <p><a href="https://www.netflix.com/"><u>Netflix- login/signup</u></a></p>
+  <p><a href="https://www.youtube.com/"><u>YouTube- @bigbea130</u></a></p>
+  <p><a href="https://www.pinterest.com/"><u>Pinterest- @bigbea130</u></a></p>
+  <p><a href="https://www.instagram.com/"><u>Instagram- @bgsusz</u></a></p></font>
+
+</center>
+</div>
+
+<center>
+<p>Hello! I am 15 years old, almost 16,</p>
+<p>I love photography and nature.</p>
+<p>Exploring and going on adventures is my passion.</p>
+<p>Above you will find tabs that you can explore.</p>
+<p>Please enjoy my website and come back again soon!</p>
+</center>
+
+</body>
+</html>
